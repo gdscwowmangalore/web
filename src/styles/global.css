@@ -14,25 +14,27 @@
   }
 }
 
-/* custom scrollbar */
+
 ::-webkit-scrollbar {
-  width: 10px;
+  display: none;
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #000000;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
 
 .roboto-bold-italic {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: italic;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  display: inline-block;
+  animation: spin 5s linear infinite;
 }
