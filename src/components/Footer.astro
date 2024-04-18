@@ -1,24 +1,28 @@
 ---
-import Container from "./Container.astro"
+import { imageConfig } from "astro:assets";
+import Container from "./Container.astro";
+import Logo from "./logo.astro";
+import Gdsclogo from "./Gdsclogo.astro"
 ---
-<footer class="bg-lime bg-fixed bg-bottom text-black">
+<footer class="bg-red_light bg-fixed bg-bottom text-black border border-red rounded-lg ">
     <Container>
-    <div class="py-6">
         <div class="flex flex-col items-center justify-between md:flex-row">
-            <div class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img class="w-auto" src="/Logo.svg" alt="Logo">
+            <div class="flex items-center space-x-3 rtl:space-x-reverse mt-3 md:mt-0">
+                <Logo/>
             </div>
-            <div class="flex mt-4 md:m-0">
-                <div class="-mx-4">
-                    @ <span id="currentYear"></span> Positivus | Made with <a href="https://astro.build/" target="_blank" rel="noopener noreferrer" class="underline">Astro</a></div>
-                </div>
+            <div class="flex items-center justify-center  md:mt-0"> 
+                <h2 class="ml-4 italic font-medium">Follow us on</h2>
+          <a> <span class="icon-[skill-icons--linkedin]" style="width: 30px; height: 30px;  margin-top: 10px; margin-left: 10px;"></span></a>
+          <a href="https://www.instagram.com/gdsc_wow_mangalore?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+            <span class="icon-[skill-icons--instagram]" style="width: 30px; height: 50px; margin-top: 10px; margin-left: 10px;"></span>
+        </a>        
+    </div>
+            <div class="  flex flex-row items-center md:m-0">
+                <Gdsclogo/>
+                <h1 class="roboto-bold-italic">Google Developers Club Student Mangalore</h1>
+
             </div>
         </div>
-    </div>
+        
     </Container>
 </footer>
-
-<script is:inline>
-    const year = new Date().getFullYear();
-    document.getElementById("currentYear").innerHTML = `${year}`;
-</script>

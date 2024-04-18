@@ -1,6 +1,6 @@
-/** @type {import('tailwindcss').Config} */
+const { addDynamicIconSelectors } = require('@iconify/tailwind');
 export default {
-	content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+	content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],	
 	theme: {
 	  screens: {
 		sm: "480px",
@@ -25,11 +25,22 @@ export default {
 		  800: "#292A32",
 		  900: "#191A23",
 		},
+		red_light: "#FFE4E6", 
+		red:"#FF0000"
 	  },
 	  extend: {
 		fontFamily: {
-			SpaceGrotesk: ["Space Grotesk", "sans-serif"],
+		  SpaceGrotesk: ["Space Grotesk", "sans-serif"],
+		   'sans': ['Roboto', 'sans-serif'],
+         'serif': ['Roboto', 'serif'],
+         'mono': ['Roboto Mono', 'monospace'],
+
 		},
 	  },
 	},
+	plugins: [
+		// Iconify plugin
+		addDynamicIconSelectors(),
+	],
   };
+  
