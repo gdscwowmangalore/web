@@ -43,3 +43,10 @@
     inset 0px 10px 10px -10px #CCC,
     inset 0px 0px 8px -10px #CCC;
 }
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing:1px;
+}
