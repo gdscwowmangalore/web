@@ -50,3 +50,51 @@
   font-style: normal;
   letter-spacing:1px;
 }
+/* GLOBAL STYLES */
+.write {
+  display: flex;
+  
+}
+
+
+
+.typewriter h1 {
+  color: #4285F4;
+  overflow: hidden; 
+  border-right: .15em solid #4285F4; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing:2px; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite,
+    cursor-disappear 6.9s forwards; 
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #4285F4 }
+}
+
+@keyframes cursor-disappear {
+  to { border-color: transparent; } 
+}
+.gojo{
+  background-color:#4285F4;
+  color:White;
+}
+.gojo:hover{
+ 
+  background-color:white;
+  color:#4285F4;
+  
+}
+
+
