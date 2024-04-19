@@ -25,7 +25,7 @@ export default {
 		  800: "#292A32",
 		  900: "#191A23",
 		},
-		red_light: "#FFE4E6", 
+		red_light: "#F8F2C7", 
 		red:"#FF0000"
 	  },
 	  extend: {

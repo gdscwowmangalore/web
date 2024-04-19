@@ -2,16 +2,16 @@
 import { imageConfig } from "astro:assets";
 import Container from "./Container.astro";
 import Logo from "./logo.astro";
-import Gdsclogo from "./Gdsclogo.astro"
+import Gdsclogo from "./Gdsclogo.astro";
 ---
-<footer class="bg-red_light bg-fixed bg-bottom text-black border border-red rounded-lg ">
+<footer class="bg-white bg-fixed bg-bottom footer shadow-md ">
     <Container>
         <div class="flex flex-col items-center justify-between md:flex-row">
             <div class="flex items-center space-x-3 rtl:space-x-reverse mt-3 md:mt-0">
                 <div>
                 <Logo/>
             </div>
-               
+                        
             </div>
             <div class="flex items-center justify-center  md:mt-0"> 
                 <h2 class="ml-4 italic font-medium">Follow us on</h2>
@@ -20,9 +20,9 @@ import Gdsclogo from "./Gdsclogo.astro"
             <span class="icon-[skill-icons--instagram]" style="width: 30px; height: 50px; margin-top: 10px; margin-left: 10px;"></span>
         </a>        
     </div>
-            <div class="  flex flex-row items-center md:m-0">
+            <div class="  flex flex-row items-center md:m-0 md: ml-8 ">
                 <Gdsclogo/>
-                <h1 class="roboto-bold-italic">Google Developer Student Club Mangalore</h1>
+                <h1 class="roboto-bold-italic">Google Developer Student Club Mangaluru</h1>
 
             </div>
         </div>

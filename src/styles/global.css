@@ -38,3 +38,8 @@
   display: inline-block;
   animation: spin 5s linear infinite;
 }
+.footer {
+  box-shadow: 
+    inset 0px 10px 10px -10px #CCC,
+    inset 0px 0px 8px -10px #CCC;
+}
