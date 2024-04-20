@@ -14,20 +14,104 @@
   }
 }
 
-/* custom scrollbar */
+
 ::-webkit-scrollbar {
-  width: 10px;
+  display: none;
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
-::-webkit-scrollbar-thumb {
-  background: #000000;
+.spinner {
+  display: inline-block;
+  animation: spin 5s linear infinite;
+}
+.footer {
+  box-shadow: 
+    inset 0px 10px 10px -10px #CCC,
+    inset 0px 0px 8px -10px #CCC;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing:1px;
+}
+/* GLOBAL STYLES */
+.write {
+  display: flex;
+  
 }
 
+
+
+.typewriter h1 {
+  color: #4285F4;
+  overflow: hidden; 
+  border-right: .15em solid #4285F4; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing:2px; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite,
+    cursor-disappear 6.9s forwards; 
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #4285F4 }
+}
+
+@keyframes cursor-disappear {
+  to { border-color: transparent; } 
+}
+.gojo{
+  background-color:#4285F4;
+  color:White;
+}
+.gojo:hover{
+ 
+  background-color:white;
+  color:#4285F4;
+  
+}
+
+
+.titan-one-regular {
+  font-family: "Titan One", sans-serif;
+  font-style: normal;
+}
+@media (min-width:768px)and (max-width:1440px) {
+.border-1{
+      border-left: 2px solid green
+}
+}
+#parent:hover .spinn {
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spinn {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

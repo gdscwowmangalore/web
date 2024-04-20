@@ -1,24 +1,27 @@
 ---
-import Container from "./Container.astro"
+import { imageConfig } from "astro:assets";
+import Container from "./Container.astro";
+import Logo from "./logo.astro";
+import Gdsclogo from "./Gdsclogo.astro";
 ---
-<footer class="bg-lime bg-fixed bg-bottom text-black">
+<footer class="bg-white bg-fixed bg-bottom footer shadow-md ">
     <Container>
-    <div class="py-6">
         <div class="flex flex-col items-center justify-between md:flex-row">
-            <div class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img class="w-auto" src="/Logo.svg" alt="Logo">
+            <div class="flex items-center space-x-3 rtl:space-x-reverse mt-3 md:mt-0">
+                <div>
+                <Logo/>
             </div>
-            <div class="flex mt-4 md:m-0">
-                <div class="-mx-4">
-                    @ <span id="currentYear"></span> Positivus | Made with <a href="https://astro.build/" target="_blank" rel="noopener noreferrer" class="underline">Astro</a></div>
-                </div>
+                        
+            </div>
+            <div class="flex items-center justify-center mt-4 md:mt-0"> 
+             <h1 class="bebas-neue-regular">&copy 2024 GDSC WOW MANGALORE.ALL RIGHTS RESEVERD</h1>   
+    </div>
+            <div class="  flex flex-row items-center md:m-0 md: ml-8 ">
+                <Gdsclogo/>
+                <h1 class="roboto-bold-italic">Google Developer Student Club Mangaluru</h1>
+
             </div>
         </div>
-    </div>
+        
     </Container>
 </footer>
-
-<script is:inline>
-    const year = new Date().getFullYear();
-    document.getElementById("currentYear").innerHTML = `${year}`;
-</script>
