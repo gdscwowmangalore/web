@@ -1,44 +1,56 @@
 ---
 import Container from "./Container.astro"
 import servicesData from './Data/services.json';
+import LogoO from "./logoO.astro";
+import LogoQ from "./logoQ.astro";
+import LogoW from "./logoW.astro";
+
 ---
 <Container>
+    <div class="md:border-2 md:border-solid md: border-google_green md:rounded-[45px] p-3">
 <div class="relative flex flex-col items-center md:flex-row" id="services">
-    <div class="row items-center py-5 md:pr-20 md:w-3/12 md:py-10">
-        <div class="text-center md:text-left space-y-3 bg-lime">
-            <h2 class="text-4xl font-medium leading-none sm:text-6xl">Services</h2>
+    <div class="row items-center  md:w-9/12 ">
+        <div class="flex flex-row items-center ml-0 md:ml-5">
+           <h1 class="text-5xl titan-one-regular  ">W</h1><h1 class="text-5xl titan-one-regular">h</h1><h1 class="text-5xl titan-one-regular ">a</h1><h1 class="text-5xl titan-one-regular ">t</h1><div class="flex flex-row items-center m-3"><h1 class="text-5xl titan-one-regular ">i</h1><h1 class="text-5xl titan-one-regular ">s</h1></div>
+           <div>  
+            <LogoW/>
+    </div>
+        <div class="spinner">
+         <LogoO/>
+        </div>
+      <div>
+        <LogoQ/>
+      </div>
+         <h1 class=" text-5xl titan-one-regular ml-2">?</h1>
         </div>
     </div>
-    <div class="flex items-center py-5 md:w-9/12 md:py-10">
-        <p class="text-xl font-normal leading-7 text-center md:text-left">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+    <div class=" flex items-center py-5 md:w-9/12 md:py-10">
+        <div class="border-1">
+
+        <h2 class="text-xl font-normal leading-7 ml-4">
+            
+            GDSC WoW 2024 is a full-day tech extravaganza featuring talks, workshops, coding contests, and a thrilling Treasure Hunt called "Treasure to WOW." Hosted by 200+ GDSCs across India, it unites students, developers, and communities for a shared learning experience. With experts guiding real-time projects, it's the perfect launchpad for beginners into the world of tech careers.
+        </h2>
+    </div>
     </div>
 </div>
 
-<div class="flex-row items-center py-5">
+<div class="flex-row items-center">
     <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4">
 
         <!-- card start-->
         {
-        servicesData.map(({ background, name1, name2, arrow, link, image} ) => (
-        <div class={background}>
-            <div class="flex-col justify-center items-start gap-[93px] inline-flex">
+        servicesData.map(({ background, name1,} ) => (
+        <div id="parent" class={background}>
+            <div class="flex-col justify-center items-start  inline-flex">
                 <div class="flex-col justify-start items-start flex">
-                    <div class="px-[7px] bg-lime-300 rounded-[7px] flex-col justify-start items-start gap-2.5 flex">
-                        <div class=" text-3xl font-medium">{name1}</div>
-                    </div>
-                    <div class="px-[7px] bg-lime-300 rounded-[7px] flex-col justify-start items-start gap-2.5 flex">
-                        <div class="text-3xl font-medium">{name2}</div>
+                    <div class=" rounded-[7px] flex-col justify-start items-start gap-2.5 flex">
+                        <div class=" text-[30px] font-medium">{name1}</div>
                     </div>
                 </div>
-                <a class="justify-start items-center gap-[15px] inline-flex" href={link}>
-                    <div class="w-[41px] h-[41px] relative">
-                        <img class="w-[41px] h-[41px] left-0 top-0 absolute" src={arrow} />
-                    </div>
-                    <div class="text-xl font-normal leading-7">Learn more</div>
-                </a>
             </div>
-            <div class="w-[210px] h-[170px] pt-0.5 pb-[1.95px] justify-center items-center flex">
-                <img class="hidden md:block" src={image} />
+            <div class=" justify-center items-center flex spinn">
+                    <LogoO/>
             </div>
         </div>
         ))
@@ -47,20 +59,5 @@ import servicesData from './Data/services.json';
     </div>
 </div>
 
-<div class="flex-row items-center my-6 p-14 bg-zinc-100 rounded-[45px]">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="justify-start items-center gap-[275px] flex">
-            <div class="flex-col justify-start items-start gap-[26px] inline-flex text-black">
-                <div class="text-3xl font-medium">Let’s make things happen</div>
-                <div class="text-lg font-normal">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</div>
-                <a href="/" class="px-[35px] py-5 bg-zinc-900 rounded-[14px] justify-start items-start gap-2.5 inline-flex">
-                    <div class="text-center text-white text-xl font-normal leading-7">Get your free proposal</div>
-                </a>
-            </div>
-        </div>
-        <div class="hidden md:grid justify-items-center -m-20">
-            <img src="/services/Illustration.svg" width="50%" alt="cat"/>
-        </div>
-    </div>
 </div>
 </Container>

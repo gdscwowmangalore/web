@@ -98,3 +98,20 @@
 }
 
 
+.titan-one-regular {
+  font-family: "Titan One", sans-serif;
+  font-style: normal;
+}
+@media (min-width:768px)and (max-width:1440px) {
+.border-1{
+      border-left: 2px solid green
+}
+}
+#parent:hover .spinn {
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spinn {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

@@ -26,7 +26,11 @@ export default {
 		  900: "#191A23",
 		},
 		red_light: "#F8F2C7", 
-		red:"#FF0000"
+		red:"#FF0000",
+		google_green:"#0F9D58",
+		google_red:"#DB4437",
+		google_yellow:"#F4B400",
+		google_blue:"#4285F4"
 	  },
 	  extend: {
 		fontFamily: {
