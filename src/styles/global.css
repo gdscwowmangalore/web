@@ -115,3 +115,16 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+.card{
+  border-bottom-right-radius: 50px;
+ border-top-left-radius: 50px;
+}
+.speaker{
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.card:hover{
+
+  box-shadow: 0 0 40px #8F8F8F;
+;
+}

@@ -7,6 +7,7 @@ export default {
 		md: "768px",
 		lg: "976px",
 		xl: "1440px",
+		lx:"1170px"
 	  },
 	  colors: {
 		black: "#000000",
@@ -30,7 +31,8 @@ export default {
 		google_green:"#0F9D58",
 		google_red:"#DB4437",
 		google_yellow:"#F4B400",
-		google_blue:"#4285F4"
+		google_blue:"#4285F4",
+		white_grey:"#F0EAEA"
 	  },
 	  extend: {
 		fontFamily: {
