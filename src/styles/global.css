@@ -108,7 +108,7 @@
 }
 }
 #parent:hover .spinn {
-  animation: spin 5s linear infinite;
+  animation: spin 6s linear infinite;
 }
 
 @keyframes spinn {
