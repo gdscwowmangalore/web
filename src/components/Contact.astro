@@ -24,12 +24,10 @@ import LogoO from "./logoO.astro";
         <div class="w-full px-14 py-10 bg-white  rounded-[45px] shadow border border-google_red flex-col justify-start items-start gap-7 inline-flex">
             <button type="button" class="w-full flex justify-between items-center" data-accordion-target={target} aria-expanded="true" aria-controls={bid}>
                 <div class="justify-start items-center gap-6 flex">
-                  
-                    <h3 class="text-lg md:text-3xl font-medium bebas-neue-regular">{title}</h3>
-                </div>
-                <div>
-                    <img data-accordion-icon src="/team/plus.svg" alt="" class="justify-items-end  w-10 h-10" aria-hidden="true"/>
-                </div>
+    <img data-accordion-icon src="/team/plus.svg" alt="" class="justify-items-end w-10 h-10" aria-hidden="true"/>
+    <h3 class="text-lg md:text-3xl font-medium bebas-neue-regular">{title}</h3>
+</div>
+
             </button>
             <div class="text-lg font-normal" id={bid} aria-labelledby={hid}>
                 <hr class="w-full border border-google_red mb-6"/>
