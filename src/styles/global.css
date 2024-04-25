@@ -102,16 +102,72 @@
   font-family: "Titan One", sans-serif;
   font-style: normal;
 }
-@media (min-width:768px)and (max-width:1440px) {
+@media (min-width:768px)and (max-width:3000px) {
 .border-1{
       border-left: 2px solid green
 }
 }
 #parent:hover .spinn {
-  animation: spin 5s linear infinite;
+  animation: spin 6s linear infinite;
 }
 
 @keyframes spinn {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+.card{
+  border-bottom-right-radius: 50px;
+ border-top-left-radius: 50px;
+}
+.speaker{
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.card:hover{
+
+  box-shadow: 0 0 40px #F4B400;
+;
+}
+.custom-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
+  gap: 20px;
+}
+
+.custom-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+.custom-card:hover{
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 255, 0.9);
+  color:#4285F4;
+}
+.custom-card:active{
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 255, 0.9);
+  color:#4285F4;
+}
+.custom-card:active {
+  box-shadow: none;
+  color:#4285F4;
+  border: 1px solid #4285F4;
+}
+
+@media (max-width: 768px) {
+  .custom-grid {
+    grid-template-columns: repeat(2, 3 fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

@@ -2,77 +2,80 @@
     "team":
     [
         {
-            "title": "CEO and Founder",
-            "name": "John Smith",
-            "description": "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
-            "profile": "/team/c1.png",
-            "link": "/"
+            "name": "Sneha Pawar",
+            "description": "Senior Salesforce Developer @Cognizant , Trailblazer Mentor , Salesforce women in tech , community Group Leader",
+            "profile": "/1000079222.png"
+      
         },
         {
-            "title": "Director of Operations",
-            "name": "Jane Doe",
-            "description": "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
-            "profile": "/team/c2.png",
-            "link": "/"
+            "name": "Jeevitha P. Raju",
+            "description": "International keynote speaker at World school summit 13th edition, Dubai, Innovative educator, Softskill Trainer.",
+            "profile": "/edit.png"
+        
         },
         {
-            "title": "Senior SEO Specialist",
-            "name": "Michael Brown",
-            "description": "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
-            "profile": "/team/c3.png",
-            "link": "/"
+            "name": "Akshay Kumar U",
+            "description": " Founder @Abhyudaya Softech,Tech Evangelist in transforming B2C brands",
+            "profile": "/Akshay Kumar.jpg"
+         
+        },
+        {
+            "name": "Shanwill Pinto ",
+            "description": "Software Engineer @UniCort            ",
+            "profile": "/shanwill1.png"
+         
         }
 
     ],
     "process":
     [
         {
-            "id": "01",
+        
             "hid": "accordion-open-heading-1",
             "bid": "accordion-open-body-1",
             "target": "#accordion-open-body-1",
-            "title": "Consultation",
-            "description": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+            "title": "What is GDSC WOW MANGALURU",
+            "description":  "Experience the pinnacle of tech innovation at GDSC WOW MANGALURU, an esteemed event orchestrated by Google Developer Student Clubs (GDSC) in Mangaluru. Join us as we unite students, developers, and industry mavens to delve into the cutting-edge realms of technology and uncover the latest trends shaping our digital landscape."
         },
         {
-            "id": "02",
+        
             "hid": "accordion-open-heading-2",
             "bid": "accordion-open-body-2",
             "target": "#accordion-open-body-2",
-            "title": "Research",
-            "description": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+            "title": "Where and when will GDSC WOW MANGLURU take place?",
+            "description": "GDSC WOW MANGALURU is scheduled to take place at Srinivas Institute Of Technology (S.I.T), located in Valachil, Mangaluru, Karnataka, India. Mark your calendars for May 6th, 2024, from 9:00 AM to 6:00 PM IST."
         },
         {
-            "id": "03",
+        
             "hid": "accordion-open-heading-3",
             "bid": "accordion-open-body-3",
             "target": "#accordion-open-body-3",
-            "title": "Implementation",
-            "description": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+            "title": "What kind of individuals can join GDSC WOW MANGALURU",
+            "description": " GDSC WOW Mangaluru extends its welcome to students, developers, and technology enthusiasts, fostering an inclusive environment for those eager to delve into learning, networking, and immersing themselves in the vast expanse of technology."
         },
         {
-            "id": "04",
+        
             "hid": "accordion-open-heading-4",
             "bid": "accordion-open-body-4",
             "target": "#accordion-open-body-4",
-            "title": "Optimization",
-            "description": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+            "title": "What can I expect at GDSC WOW MANGALURU?",
+            "description": "GDSC WOW MANGALURU will feature a diverse range of activities including tech talks, workshops, hands-on coding sessions, networking opportunities, and more. It's a chance to learn from industry experts, connect with peers, and gain valuable insights into the world of technology."
         },
         {
-            "id": "05",
+         
             "hid": "accordion-open-heading-5",
             "bid": "accordion-open-body-5",
             "target": "#accordion-open-body-5",
-            "title": "Reporting",
-            "description": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+            "title": "Sponsorship or partnership opportunities for GDSC WOW Mangaluru?",
+            "description":"Certainly! Feel free to connect with us if you're interested in partnering or sponsoring GDSC WOW MANGALURU. You can find our contact details on our website for further inquiries and collaboration opportunities."
         },
         {
-            "id": "06",
+        
             "hid": "accordion-open-heading-6",
             "bid": "accordion-open-body-6",
             "target": "#accordion-open-body-6",
-            "title": "Improvement",
-            "description": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+            "title": "How can I stay updated with GDSC WOW MANGALURU announcements?",
+            "description": "To stay updated with the latest news and announcements about GDSC WOW MANGALURU, make sure to follow us on our social media handles and regularly check our website for updates."
         }
     ]
 }
