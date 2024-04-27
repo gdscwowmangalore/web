@@ -176,17 +176,17 @@ table {
 }
 
 th, td {
-  border: 1px solid #000;
+  border: 1px solid #DB4437;
   padding: 20px;
   text-align: center;
 
 }
 th:hover{
-  background-color:black;
+  background-color:#DB4437;
   color:white;
 }
 td:hover{
-  background-color:black;
+  background-color:#DB4437;
   color:white;
 }
 
