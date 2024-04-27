@@ -135,13 +135,11 @@
 }
 
 .custom-card {
-  background-color: #f0f0f0;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
 .custom-card:hover{
-  background-color: #f0f0f0;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 255, 0.9);

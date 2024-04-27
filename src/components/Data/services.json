@@ -17,7 +17,7 @@
     },
     {
         "id": 4,
-        "name1": "Networking",
+        "name1": "Network",
         "background": "h-[310px]  bg-zinc-100 rounded-[45px] shadow border border-black justify-between items-center flex text-black hover:text-white hover:bg-black"
 
     }
