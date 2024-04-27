@@ -169,3 +169,37 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 20px;
+  text-align: center;
+
+}
+th:hover{
+  background-color:black;
+  color:white;
+}
+td:hover{
+  background-color:black;
+  color:white;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 600px) {
+  table {
+      font-size: 14px;
+  }
+  th, td {
+      padding: 10px;
+  }
+}
