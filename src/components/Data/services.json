@@ -2,23 +2,23 @@
     {
         "id": 1,
         "name1": " Speaker Sessions",
-        "background": "h-[310px] p-12 bg-google_red rounded-[45px] shadow border border-black justify-between items-center flex text-black hover:text-white hover:bg-black"
+        "background": "h-[310px]  bg-google_red rounded-[45px] shadow border border-black justify-between items-center flex text-black hover:text-white hover:bg-black"
     },
     {
         "id": 2,
         "name1": " Swags and Goodies",
-        "background": "h-[310px] p-12 rounded-[45px] shadow border border-black justify-between items-center flex text-black hover:text-white hover:bg-black" 
+        "background": "h-[310px]  rounded-[45px] shadow border border-black justify-between items-center flex text-black hover:text-white hover:bg-black" 
     },
     {
         "id": 3,
         "name1": "Workshop  ",
-        "background": "h-[310px] p-12  bg-white rounded-[45px] shadow border border-black justify-between items-center flex text-black hover:text-white hover:bg-black"
+        "background": "h-[310px]  bg-white rounded-[45px] shadow border border-black justify-between items-center flex text-black hover:text-white hover:bg-black"
 
     },
     {
         "id": 4,
         "name1": "Networking",
-        "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow border border-black justify-between items-center flex text-black hover:text-white hover:bg-black"
+        "background": "h-[310px]  bg-zinc-100 rounded-[45px] shadow border border-black justify-between items-center flex text-black hover:text-white hover:bg-black"
 
     }
 ]

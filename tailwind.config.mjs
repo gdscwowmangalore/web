@@ -4,10 +4,10 @@ export default {
 	theme: {
 	  screens: {
 		sm: "480px",
-		md: "768px",
+		md: "875px",
 		lg: "976px",
 		xl: "1440px",
-		lx:"1170px"
+		lx:"975px"
 	  },
 	  colors: {
 		black: "#000000",

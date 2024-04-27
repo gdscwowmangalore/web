@@ -4,18 +4,18 @@ import LogoQ from "./logoQ.astro"
 import LogoO from "./logoO.astro"
 import GDSCMLOGO from "./GDSCMLOGO.astro";
 const navLinks = [
-  { href: '/about', label: 'Home' },
-  { href: '/about', label: 'About' },
-  { href: '/#projects', label: 'Speakers' },
-  { href: '/pricing', label: 'Partners' },
-  { href: '/blog', label: 'FAQ' },
+  { href: '#hero', label: 'Home' },
+  { href: '#about', label: 'About' },
+  { href: '#speakers', label: 'Speakers' },
+  { href: '#partners', label: 'Partners' },
+  { href: '#Faq', label: 'FAQ' },
 ];
 
 import Container from "./Container.astro"
 import Gdsclogo from "./Gdsclogo.astro";
 ---
 
-<nav class="w-full top-0 left-0 z-50 fixed bg-white shadow-md">
+<nav class="w-full top-0 left-0 z-50  bg-white shadow-md">
   <Container>
     <div class="flex flex-wrap items-center justify-between mx-auto ">
       <a href="/" class="flex items-center  rtl:space-x-reverse">
