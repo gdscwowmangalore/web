@@ -7,6 +7,7 @@ const navLinks = [
   { href: '#hero', label: 'Home' },
   { href: '#about', label: 'About' },
   { href: '#speakers', label: 'Speakers' },
+  { href: '#speakers', label: 'Timeline' },
   { href: '#partners', label: 'Partners' },
   { href: '#Faq', label: 'FAQ' },
 ];
@@ -29,28 +30,28 @@ import Gdsclogo from "./Gdsclogo.astro";
     <LogoQ/>
   </div>
 </a>
-      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden focus:outline-none focus:ring-2 " aria-controls="navbar-default" aria-expanded="false">
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg rx:hidden focus:outline-none focus:ring-2 " aria-controls="navbar-default" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
           <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
           </svg>
       </button>
-      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
+      <div class="hidden w-full rx:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 rx:p-0 mt-4 border rounded-lg rx:flex-row rx:space-x-8 rx:mt-0 rx:border-0">
             {navLinks.map(link => (
             <li>
-                <a href={link.href} class="bebas-neue-regular text-black  hover:text-red block py-2 px-3 text rounded md:bg-transparent md:p-0 ">{link.label}</a>
+                <a href={link.href} class="bebas-neue-regular text-black  hover:text-red block py-2 px-3 text rounded rx:bg-transparent rx:p-0 ">{link.label}</a>
             </li>
             ))}
             <li>
-                <a class="md:hidden">
+                <a class="rx:hidden">
                   <img src="/mangaluru3.png">
                 </a>
             </li> 
         </ul>
       </div>
         
-      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <div class="hidden w-full rx:block rx:w-auto" id="navbar-default">
          <GDSCMLOGO/>
       </div>
     </div>

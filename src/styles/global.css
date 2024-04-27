@@ -102,7 +102,7 @@
   font-family: "Titan One", sans-serif;
   font-style: normal;
 }
-@media (min-width:768px)and (max-width:3000px) {
+@media (min-width:875px)and (max-width:3000px) {
 .border-1{
       border-left: 2px solid green
 }

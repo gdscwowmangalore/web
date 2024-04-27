@@ -7,7 +7,8 @@ export default {
 		md: "875px",
 		lg: "976px",
 		xl: "1440px",
-		lx:"975px"
+		lx:"975px",
+		rx:"975px"
 	  },
 	  colors: {
 		black: "#000000",
