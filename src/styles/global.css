@@ -168,43 +168,49 @@
     grid-template-columns: repeat(2, 3 fr);
   }
 }
-.custom-card{
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 255, 0.9);
-  color:#4285F4;
-}
-
 @media (max-width: 480px) {
   .custom-grid {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
 table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate; /* ensures that borders can be individually styled */
+  border-spacing: 0; /* removes default spacing between borders in separate mode */
   font-family: Arial, sans-serif;
-  
+  border-radius: 10px; /* rounded corners for the entire table */
+  overflow: hidden; /* hides anything that goes outside the border-radius */
 }
 
 th, td {
-  border: 1px solid #DB4437;
+  border: 1px solid #DB4437; /* sets the border color and style */
   padding: 20px;
   text-align: center;
-
-}
-th:hover{
-  background-color:#DB4437;
-  color:white;
-}
-td:hover{
-  background-color:#DB4437;
-  color:white;
+  background-color: #fff; /* default background color for cells */
 }
 
-th {
-  background-color: #fff;  
+th:hover, td:hover {
+  background-color: #DB4437;
+  color: white;
+}
+
+/* Rounded corners for the first and last cell in the table */
+/* This targets the first and last th/td in each row */
+tr:first-child th:first-child, tr:first-child td:first-child {
+  border-top-left-radius: 10px; /* rounded top left corner for first cell in the first row */
+}
+
+tr:first-child th:last-child, tr:first-child td:last-child {
+  border-top-right-radius: 10px; /* rounded top right corner for last cell in the first row */
+}
+
+tr:last-child th:first-child, tr:last-child td:first-child {
+  border-bottom-left-radius: 10px; /* rounded bottom left corner for first cell in the last row */
+}
+
+tr:last-child th:last-child, tr:last-child td:last-child {
+  border-bottom-right-radius: 10px; /* rounded bottom right corner for last cell in the last row */
 }
 
 /* Responsive styles for mobile */
