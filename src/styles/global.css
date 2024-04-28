@@ -107,6 +107,11 @@
       border-left: 2px solid green
 }
 }
+@media (max-width:875px){
+     .spinn{
+      animation: spin 6s linear infinite;
+     }
+}
 #parent:hover .spinn {
   animation: spin 6s linear infinite;
 }

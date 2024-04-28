@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name1": " Speaker Sessions",
-        "background": "h-[310px]  bg-google_red rounded-[45px] shadow border border-black justify-between items-center flex text-black hover:text-white hover:bg-black"
+        "background": "h-[310px]  rounded-[45px] shadow border border-black justify-between items-center flex text-black hover:text-white hover:bg-black"
     },
     {
         "id": 2,
