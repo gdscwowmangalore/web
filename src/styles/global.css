@@ -238,7 +238,7 @@ tr:last-child th:last-child, tr:last-child td:last-child {
 
   padding: 20px;
   flex: 1; /* Cards grow to use available space */
-  min-width: 250px; /* Minimum width before wrapping */
+  min-width: 100px; /* Minimum width before wrapping */
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
   transition: transform 0.3s;
   text-align: left; /* Align text to left for better readability */
