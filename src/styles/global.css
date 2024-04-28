@@ -193,6 +193,7 @@ th, td {
 th:hover, td:hover {
   background-color: #DB4437;
   color: white;
+  border:2px dotted white;
 }
 
 /* Rounded corners for the first and last cell in the table */
