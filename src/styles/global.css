@@ -173,6 +173,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   font-family: Arial, sans-serif;
+  
 }
 
 th, td {
@@ -191,7 +192,7 @@ td:hover{
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: #fff;  
 }
 
 /* Responsive styles for mobile */
