@@ -223,3 +223,36 @@ tr:last-child th:last-child, tr:last-child td:last-child {
       padding: 10px;
   }
 }
+.profile-cards {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  padding: 20px;
+  justify-content: space-between; /* Space cards evenly */
+  gap: 20px; /* Ensures gap between cards when they wrap */
+}
+
+.profile-card {
+
+
+  padding: 20px;
+  flex: 1; /* Cards grow to use available space */
+  min-width: 250px; /* Minimum width before wrapping */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+  text-align: left; /* Align text to left for better readability */
+}
+
+@media (max-width: 768px) {
+  .profile-cards {
+      flex-direction: column;
+  }
+
+  .profile-card {
+      width: 100%; /* Full width for very small screens */
+      margin-bottom: 10px; /* Add margin for separation */
+  }
+
+  .profile-card:last-child {
+      margin-bottom: 0;
+  }
+}
