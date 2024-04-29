@@ -2,6 +2,12 @@
     "team":
     [
         {
+            "name": "Swasthik Shetty",
+            "description": "Cloud Solution Engineer at Google II | SDE Intern at C.I.D     ",
+            "profile": "/profile-pic.png"
+         
+        },
+        {
             "name": "Sneha Pawar",
             "description": "Senior Salesforce Developer @Cognizant , Trailblazer Mentor , Salesforce women in tech , community Group Leader",
             "profile": "/1000079222.png"
@@ -14,6 +20,12 @@
         
         },
         {
+            "name": "Adarsh Prabhu",
+            "description": "Associate Director - Customer Engineering, Technology & Innovations @ Niveus Solutions Pvt. Ltd. | Cloud Architecture",
+            "profile": "/profile-pic (1).png"
+         
+        },
+        {
             "name": "Akshay Kumar U",
             "description": " Founder @Abhyudaya Softech,Tech Evangelist in transforming B2C brands",
             "profile": "/Akshay Kumar.jpg"
@@ -23,18 +35,6 @@
             "name": "Shanwill Pinto ",
             "description": "Software Engineer @UniCort            ",
             "profile": "/shanwill1.png"
-         
-        },
-        {
-            "name": "Swasthik Shetty",
-            "description": "Cloud Solution Engineer at Google II | SDE Intern at C.I.D     ",
-            "profile": "/profile-pic.png"
-         
-        },
-        {
-            "name": "Adarsh Prabhu",
-            "description": "Associate Director - Customer Engineering, Technology & Innovations @ Niveus Solutions Pvt. Ltd. | Cloud Architecture",
-            "profile": "/profile-pic (1).png"
          
         }
 
