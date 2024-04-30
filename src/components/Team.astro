@@ -1,48 +1,59 @@
 ---
-import Container from "./Container.astro"
-import teamData from './Data/team.json';
+import Container from "./Container.astro";
+import teamData from "./Data/team.json";
 import LogoO from "./logoO.astro";
 ---
+
 <Container>
-
-<div class="md:border-google_yellow speaker md:border-2 md:pl-6 md:pr-8 md:pb-8 md:pt-6  ">
-<div class="relative flex flex-col items-center md:flex-row">
-    <div class="row items-center py-5 md:pr-16 md:w-2/12 md:py-1">
-        <div class="text-center md:text-left space-y-3 flex flex-row items-center ml-4 mb-6">
-            <div class="spinner">
-            <LogoO/>
+  <div
+    class="md:border-google_yellow speaker md:border-2 md:pl-6 md:pr-8 md:pb-8 md:pt-6"
+  >
+    <div class="relative flex flex-col items-center md:flex-row">
+      <div class="row items-center py-5 md:pr-16 md:w-2/12 md:py-1">
+        <div
+          class="text-center md:text-left space-y-3 flex flex-row items-center ml-4 mb-6"
+        >
+          <div class="spinner">
+            <LogoO />
+          </div>
+          <div>
+            <h2
+              class="text-4xl font-medium leading-none sm:text-6xl bebas-neue-regular ml-3"
+            >
+              Speakers
+            </h2>
+          </div>
         </div>
-           <div><h2 class="text-4xl font-medium leading-none sm:text-6xl bebas-neue-regular ml-3">Speakers</h2></div> 
-        </div>
+      </div>
     </div>
-</div>
 
-<div class="flex-row items-center " id="team" >
-    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6">
-    {
-    teamData.team.map(({ description, name, profile} ) => (
-    <div class=" card h-[400px] px-[40px] py-10 ml-4 bg-white duration-500 shadow  border-google_yellow border-2 flex-col justify-start items-start gap-2.5 inline-flex text-black">
-        <div class=" cardd flex-col justify-start items-start gap-7 flex">
-            <div class="self-stretch justify-start items-start inline-flex">
-                <div class="grow shrink basis-0 justify-start items-center gap-8 flex">
+    <div class="flex-row items-center" id="team">
+      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6">
+        {
+          teamData.team.map(({ description, name, profile }) => (
+            <div class=" card h-[400px] px-[40px] py-10 ml-4 bg-white duration-500 shadow  border-google_yellow border-2 flex-col justify-start items-start gap-2.5 inline-flex text-black">
+              <div class=" cardd flex-col justify-start items-start gap-7 flex">
+                <div class="self-stretch justify-start items-start inline-flex">
+                  <div class="grow shrink basis-0 justify-start items-center gap-8 flex">
                     <div class=" left-0 top-0 relative">
-                        <img class="h-[150px] w-[150px]" src={profile} alt={name}/>
+                      <img
+                        class="h-[150px] w-[150px]"
+                        src={profile}
+                        alt={name}
+                      />
                     </div>
                     <div class="flex-col justify-end items-start inline-flex">
-                        <div class="text-xl font-medium">{name}</div> 
+                      <div class="text-xl md:text-5xl font-medium">{name}</div>
                     </div>
+                  </div>
                 </div>
+                <hr class="w-full border border-google_yellow" />
+                <p class="text-lg md:text-lg">{description}</p>
+              </div>
             </div>
-            <hr class="w-full border border-google_yellow"/>
-            <p class="text-sm md:text-lg">{description}</p>
-        </div>
+          ))
+        }
+      </div>
     </div>
-    ))
-    }
-    </div>
-</div>
-
-</div>
-
-
+  </div>
 </Container>
