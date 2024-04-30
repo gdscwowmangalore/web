@@ -102,10 +102,15 @@
   font-family: "Titan One", sans-serif;
   font-style: normal;
 }
-@media (min-width:768px)and (max-width:3000px) {
+@media (min-width:875px)and (max-width:3000px) {
 .border-1{
       border-left: 2px solid green
 }
+}
+@media (max-width:875px){
+     .spinn{
+      animation: spin 6s linear infinite;
+     }
 }
 #parent:hover .spinn {
   animation: spin 6s linear infinite;
@@ -135,20 +140,20 @@
 }
 
 .custom-card {
-  background-color: #f0f0f0;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 4px 8px rgba(0, 0, 255, 0.9);
+  color:#4285F4;    
 }
 .custom-card:hover{
-  background-color: #f0f0f0;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 255, 0.9);
-  color:#4285F4;
+  color:blue;
 }
 .custom-card:active{
-  background-color: #f0f0f0;
+  background-color: #fff;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 255, 0.9);
@@ -165,9 +170,91 @@
     grid-template-columns: repeat(2, 3 fr);
   }
 }
-
 @media (max-width: 480px) {
   .custom-grid {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: separate; /* ensures that borders can be individually styled */
+  border-spacing: 0; /* removes default spacing between borders in separate mode */
+  font-family: Arial, sans-serif;
+  border-radius: 10px; /* rounded corners for the entire table */
+  overflow: hidden; /* hides anything that goes outside the border-radius */
+}
+
+th, td {
+  border: 1px solid #DB4437; /* sets the border color and style */
+  padding: 20px;
+  text-align: center;
+  background-color: #fff; /* default background color for cells */
+}
+
+th:hover, td:hover {
+  background-color: #DB4437;
+  color: white;
+  border:2px dotted white;
+}
+
+/* Rounded corners for the first and last cell in the table */
+/* This targets the first and last th/td in each row */
+tr:first-child th:first-child, tr:first-child td:first-child {
+  border-top-left-radius: 10px; /* rounded top left corner for first cell in the first row */
+}
+
+tr:first-child th:last-child, tr:first-child td:last-child {
+  border-top-right-radius: 10px; /* rounded top right corner for last cell in the first row */
+}
+
+tr:last-child th:first-child, tr:last-child td:first-child {
+  border-bottom-left-radius: 10px; /* rounded bottom left corner for first cell in the last row */
+}
+
+tr:last-child th:last-child, tr:last-child td:last-child {
+  border-bottom-right-radius: 10px; /* rounded bottom right corner for last cell in the last row */
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 600px) {
+  table {
+      font-size: 14px;
+  }
+  th, td {
+      padding: 10px;
+  }
+}
+.profile-cards {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  padding: 20px;
+  justify-content: space-between; /* Space cards evenly */
+  gap: 20px; /* Ensures gap between cards when they wrap */
+}
+
+.profile-card {
+
+
+  padding: 20px;
+  flex: 1; /* Cards grow to use available space */
+  min-width: 100px; /* Minimum width before wrapping */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+  text-align: left; /* Align text to left for better readability */
+}
+
+@media (max-width: 768px) {
+  .profile-cards {
+      flex-direction: column;
+  }
+
+  .profile-card {
+      width: 100%; /* Full width for very small screens */
+      margin-bottom: 10px; /* Add margin for separation */
+  }
+
+  .profile-card:last-child {
+      margin-bottom: 0;
   }
 }

@@ -3,11 +3,12 @@ export default {
 	content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],	
 	theme: {
 	  screens: {
-		sm: "480px",
-		md: "768px",
+		sm: "700px",
+		md: "875px",
 		lg: "976px",
 		xl: "1440px",
-		lx:"1170px"
+		lx:"975px",
+		rx:"975px"
 	  },
 	  colors: {
 		black: "#000000",

@@ -2,16 +2,22 @@
     "team":
     [
         {
+            "name": "Swasthik Shetty",
+            "description": "Cloud Solution Engineer at Google II | SDE Intern at C.I.D     ",
+            "profile": "/profile-pic.png"
+         
+        },
+        {
             "name": "Sneha Pawar",
             "description": "Senior Salesforce Developer @Cognizant , Trailblazer Mentor , Salesforce women in tech , community Group Leader",
             "profile": "/1000079222.png"
       
         },
         {
-            "name": "Jeevitha P. Raju",
-            "description": "International keynote speaker at World school summit 13th edition, Dubai, Innovative educator, Softskill Trainer.",
-            "profile": "/edit.png"
-        
+            "name": "Adarsh Prabhu",
+            "description": "Associate Director - Customer Engineering, Technology & Innovations @ Niveus Solutions Pvt. Ltd. | Cloud Architecture",
+            "profile": "/profile-pic (1).png"
+         
         },
         {
             "name": "Akshay Kumar U",
@@ -34,7 +40,7 @@
             "hid": "accordion-open-heading-1",
             "bid": "accordion-open-body-1",
             "target": "#accordion-open-body-1",
-            "title": "What is GDSC WOW MANGALURU",
+            "title": "What is GDSC WOW Mangaluru? ",
             "description":  "Experience the pinnacle of tech innovation at GDSC WOW MANGALURU, an esteemed event orchestrated by Google Developer Student Clubs (GDSC) in Mangaluru. Join us as we unite students, developers, and industry mavens to delve into the cutting-edge realms of technology and uncover the latest trends shaping our digital landscape."
         },
         {
@@ -50,7 +56,7 @@
             "hid": "accordion-open-heading-3",
             "bid": "accordion-open-body-3",
             "target": "#accordion-open-body-3",
-            "title": "What kind of individuals can join GDSC WOW MANGALURU",
+            "title": "What kind of individuals can join GDSC WOW? ",
             "description": " GDSC WOW Mangaluru extends its welcome to students, developers, and technology enthusiasts, fostering an inclusive environment for those eager to delve into learning, networking, and immersing themselves in the vast expanse of technology."
         },
         {
@@ -58,7 +64,7 @@
             "hid": "accordion-open-heading-4",
             "bid": "accordion-open-body-4",
             "target": "#accordion-open-body-4",
-            "title": "What can I expect at GDSC WOW MANGALURU?",
+            "title": "What can I expect at GDSC WOW?",
             "description": "GDSC WOW MANGALURU will feature a diverse range of activities including tech talks, workshops, hands-on coding sessions, networking opportunities, and more. It's a chance to learn from industry experts, connect with peers, and gain valuable insights into the world of technology."
         },
         {
@@ -66,7 +72,7 @@
             "hid": "accordion-open-heading-5",
             "bid": "accordion-open-body-5",
             "target": "#accordion-open-body-5",
-            "title": "Sponsorship or partnership opportunities for GDSC WOW Mangaluru?",
+            "title": "Sponsorship or partnership opportunities for GDSC WOW",
             "description":"Certainly! Feel free to connect with us if you're interested in partnering or sponsoring GDSC WOW MANGALURU. You can find our contact details on our website for further inquiries and collaboration opportunities."
         },
         {
